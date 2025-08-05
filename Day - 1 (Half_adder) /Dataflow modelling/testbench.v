@@ -15,9 +15,4 @@ module half_adder_tb();
   end
   end
   
-  initial begin
-    $dumpfile("Half_adder.vcd");
-    $dumpvars();
-  end
-  
 endmodule
