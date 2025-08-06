@@ -13,10 +13,5 @@ module full_add_tb();
       $display("a = %b | b = %b | c = %b | sum = %b | carry = %b",a,b,c,sum,carry);
     end
   end
-  
-  initial begin
-    $dumpfile("full_adder.vcd");
-    $dumpvars();
-  end
 endmodule
   
